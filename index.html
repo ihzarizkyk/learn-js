@@ -5,9 +5,49 @@
 </head>
 <body>
 
+
+
 	<p id="p">
 		Halo
 	</p>
+
+	<br>
+
+	<!--getElementById dan onclick-->
+
+	<button type="button" onclick="document.getElementById('p').innerHTML = 'Halo JS'">
+		Klik Tombol
+	</button>
+
+	<br><br>
+
+	<button type="button" onclick="document.getElementById('p').style.fontSize='50px'">
+		Perbesar Ukuran
+	</button>
+	&nbsp;&nbsp;&nbsp;
+	<button type="button" onclick="document.getElementById('p').style.fontSize='25px'">
+		Perkecil Ukuran
+	</button>
+
+	<br><br>
+
+	<button type="button" onclick="document.getElementById('p').style.display='none'">
+		Sembunyikan Tulisan
+	</button>
+	&nbsp;&nbsp;&nbsp;
+	<button type="button" onclick="document.getElementById('p').style.display='block'">
+		Tampilkan Tulisan
+	</button>
+
+	<br><br>
+
+	<button type="button" onclick="document.getElementById('p').style.color='black'">
+		Warna Hitam
+	</button>
+	&nbsp;&nbsp;&nbsp;
+	<button type="button" onclick="document.getElementById('p').style.color='red'">
+		Warna Merah
+	</button>
 
 <script type="text/javascript" src="main.js"></script>
 </body>
